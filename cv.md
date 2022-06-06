@@ -45,6 +45,10 @@ function finalGrade (exam, projects) {
 }
 ```
 
+## Education:
++ The bachelor of science in tourism management.
++ HTML, CSS and JavaScript Tutorials on the [Wepro](https://wepro.uz/)
+
 
 ## Languages:
 
