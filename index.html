@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title> CV </title>
+</head>
+
+<body>
+    <header class="header">
+        <h3>CV of Laylo</h3>
+        <div>
+            <nav>
+                <ul class="header_nav">
+                    <li>
+                        <a class="header_link" href="#contacts">Contacts</a>
+                    </li>
+                    <li>
+                        <a class="header_link" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="header_link" href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="header_link" href="#education">Education</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+    </header>
+
+    <main>
+        <div class="first_screen">
+            <img class="avatar" src="./images/lailo.jpg" alt="Laylo">
+            <h1>Khusainova Laylo</h1>
+        </div>
+
+        <div class="contacts" id="contacts">
+            <h2>Contacts</h2>
+            <div class="contacts_wrapper">
+                <div class="contacts_container">
+                    <img src="./images/discord.png" alt="discord" class="contact_logo">
+                    <span class="contact_text">Discord: Leyla (leila1409) </span>
+                </div>
+                <div class="contacts_container">
+                    <img class="contact_logo" src="./images/telegram.png" alt="telegram">
+                    <a href="https://t.me/laylo1409" class="contact_text">Telegram: @laylo1409</a>
+                </div>
+                <div class="contacts_container">
+                    <img class="contact_logo" src="./images/gmail.png" alt="gmail">
+                    <a href="mailto:khusainovalaylo@gmail.com" class="contact_text"> khusainovalaylo@gmail.com</a>
+                </div>
+                <div class="contacts_container">
+                    <img class="contact_logo" src="./images/phone.png" alt="phone">
+                    <a href="tel:+998974054414" class="contact_text">Phone: +998974054414 </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="about" id="about">
+            <h2>About me</h2>
+            <p class="about_text">
+                <i>Despite I have Bachelor degree in Economics, I’m literally interested in IT industry. Recently I have successfully completed Front-End offline and online courses. Currently I’m taking RS School Javascript language course at EPAM.
+                Eventually I believe to reach my aims and to be one of the valuable specialist as a Software Engineer. </i></p>
+        </div>
+
+        <div class="code-example">
+            <h2>Code Example:</h2>
+            <h3>Description</h3>
+            <p class="code_text"> Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects. </p><br>
+            <p class="code_text">This function should take two arguments: exam - grade for exam (from 0 to 100); projects - number of completed projects (from 0 and above).</p><br>
+            <p class="code_text">This function should return a number (final grade). There are four types of final grades:</p>
+            <p class="code_text">100, if a grade for the exam is more than 90 or if a number of completed projects more than 10. 90, if a grade for the exam is more than 75 and if a number of completed projects is minimum 5. 75, if a grade for the exam is more than 50 and
+                if a number of completed projects is minimum 2. 0, in other cases</p><br>
+
+            <pre>
+                function finalGrade (exam, projects) {
+                    if( exam > 90 || projects > 10){
+                      return 100
+                    } else if (exam > 75 && projects >= 5){
+                      return 90
+                    } else if (exam > 50 && projects >= 2){
+                      return 75
+                    } else {
+                      return 0
+                    }
+                  }
+            </pre>
+        </div>
+
+        <div class="language">
+            <h2>Languages</h2>
+            <ul>
+                <li>English - B2</li>
+                <li>Russian - Advanced</li>
+            </ul>
+
+        </div>
+
+        <div class="skills" id="skills">
+            <h2>Skills</h2>
+            <ul class="skills_list">
+                <li>&#10004; HTML </li>
+                <li>&#10004; CSS (SCSS) </li>
+                <li>&#10004; JavaScript (basic)</li>
+                <li>&#10004; Git & Github (basic)</li>
+            </ul>
+        </div>
+
+        <div class="education" id="education">
+            <h2>Education </h2>
+            <div class="education_wrapper">
+                <div class="education_container">
+                    <img class="logo_tdiu" alt="Tashkent_State_University_Of_Economics" src="./images/logo-tdiu.svg">
+                    <span>The bachelor of science in <br> tourism management.</span>
+                </div>
+                <div class="education_container">
+                    <img alt="Wepro" src="./images/logo_wepro.svg">
+                    <span>Offline course of <br> Front-end developer </span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer_container">
+            <p class="footer_text">2022 by Laylo </p>
+            <div class="footer_logo">
+                <a href="https://rs.school/js/">
+                    <img src="./images/rs-logo.svg" alt="logo_of_rsschool">
+                </a>
+            </div>
+            <p>
+                <a class="footer_text" href="https://github.com/leila1409">GitHub</a>
+            </P>
+        </div>
+    </footer>
+
+</body>
+
+
+
+</html>
